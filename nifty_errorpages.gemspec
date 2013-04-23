@@ -18,12 +18,10 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.2"
-  s.add_dependency "i18n"
   s.add_development_dependency "sqlite3"
   s.add_development_dependency "rspec-rails"
   s.add_development_dependency "capybara"
-  s.add_development_dependency 'debugger'
-  s.add_dependency "uglifier"
+  s.add_development_dependency "uglifier"
   
   s.files = `git ls-files`.split("\n")
   s.executables = `git ls-files`.split("\n").map{|f| f =~ /^bin\/(.*)/ ? $1 : nil}.compact
