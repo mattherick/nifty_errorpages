@@ -7,17 +7,25 @@ require "nifty_errorpages/version"
 Gem::Specification.new do |s|
   s.name        = "nifty_errorpages"
   s.version     = NiftyErrorpages::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of NiftyErrorpages."
-  s.description = "TODO: Description of NiftyErrorpages."
+  s.authors     = ["Matthias Frick"]
+  s.email       = ["matthias@frick-web.at"]
+  s.homepage    = "https://github.com/mattherick/nifty_errorpages"
+  s.summary     = "nifty_errorpages-#{s.version}"
+  s.description = "A simple rails engine for customizing your error pages."
+  s.rubyforge_project = "nifty_errorpages"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 3.2.13"
-  # s.add_dependency "jquery-rails"
-
+  s.add_dependency "rails", "~> 3.2"
+  s.add_dependency "i18n"
   s.add_development_dependency "sqlite3"
+  s.add_development_dependency "rspec-rails"
+  s.add_development_dependency "capybara"
+  s.add_development_dependency 'debugger'
+  s.add_dependency "uglifier"
+  
+  s.files = `git ls-files`.split("\n")
+  s.executables = `git ls-files`.split("\n").map{|f| f =~ /^bin\/(.*)/ ? $1 : nil}.compact
+  s.require_path = 'lib'
 end

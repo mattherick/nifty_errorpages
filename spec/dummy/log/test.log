@@ -1,0 +1,89 @@
+Connecting to database specified by database.yml
+Started GET "/articles" for 127.0.0.1 at 2013-04-23 17:15:37 +0200
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 4ms
+Started GET "/this-path-does-not-exist" for 127.0.0.1 at 2013-04-23 17:15:37 +0200
+Started GET "/tests/26" for 127.0.0.1 at 2013-04-23 17:15:37 +0200
+Processing by TestsController#show as HTML
+  Parameters: {"id"=>"26"}
+Completed 422 Unprocessable Entity in 0ms
+Started GET "/tests" for 127.0.0.1 at 2013-04-23 17:15:37 +0200
+Processing by TestsController#index as HTML
+Completed 500 Internal Server Error in 3ms
+Connecting to database specified by database.yml
+Started GET "/articles" for 127.0.0.1 at 2013-04-23 17:16:47 +0200
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 3ms
+Started GET "/this-path-does-not-exist" for 127.0.0.1 at 2013-04-23 17:16:47 +0200
+Started GET "/tests/26" for 127.0.0.1 at 2013-04-23 17:16:47 +0200
+Processing by TestsController#show as HTML
+  Parameters: {"id"=>"26"}
+Completed 422 Unprocessable Entity in 0ms
+Started GET "/tests" for 127.0.0.1 at 2013-04-23 17:16:47 +0200
+Processing by TestsController#index as HTML
+Completed 404 Not Found in 0ms
+Connecting to database specified by database.yml
+Started GET "/articles" for 127.0.0.1 at 2013-04-23 17:18:08 +0200
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 3ms
+Started GET "/this-path-does-not-exist" for 127.0.0.1 at 2013-04-23 17:18:08 +0200
+Started GET "/tests/26" for 127.0.0.1 at 2013-04-23 17:18:08 +0200
+Processing by TestsController#show as HTML
+  Parameters: {"id"=>"26"}
+Completed 422 Unprocessable Entity in 1ms
+Started GET "/tests" for 127.0.0.1 at 2013-04-23 17:18:08 +0200
+Processing by TestsController#index as HTML
+Completed 404 Not Found in 0ms
+Connecting to database specified by database.yml
+Started GET "/articles" for 127.0.0.1 at 2013-04-23 17:28:51 +0200
+Processing by ArticlesController#index as HTML
+Completed 500 Internal Server Error in 3ms
+Started GET "/this-path-does-not-exist" for 127.0.0.1 at 2013-04-23 17:28:51 +0200
+Started GET "/tests/26" for 127.0.0.1 at 2013-04-23 17:28:51 +0200
+Started GET "/tests" for 127.0.0.1 at 2013-04-23 17:28:51 +0200
+Connecting to database specified by database.yml
+Started GET "/articles" for 127.0.0.1 at 2013-04-23 17:29:29 +0200
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 46ms (Views: 41.8ms | ActiveRecord: 2.4ms)
+Started GET "/articles/new" for 127.0.0.1 at 2013-04-23 17:29:30 +0200
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.erb (12.5ms)
+  Rendered articles/new.html.erb within layouts/application (41.0ms)
+Completed 200 OK in 47ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+Started GET "/this-path-does-not-exist" for 127.0.0.1 at 2013-04-23 17:29:30 +0200
+Started GET "/tests/26" for 127.0.0.1 at 2013-04-23 17:29:30 +0200
+Started GET "/tests" for 127.0.0.1 at 2013-04-23 17:29:30 +0200
+Connecting to database specified by database.yml
+Started GET "/articles" for 127.0.0.1 at 2013-04-23 17:31:29 +0200
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 46ms (Views: 42.1ms | ActiveRecord: 2.3ms)
+Started GET "/articles/new" for 127.0.0.1 at 2013-04-23 17:31:29 +0200
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.erb (12.3ms)
+  Rendered articles/new.html.erb within layouts/application (41.3ms)
+Completed 200 OK in 48ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+Started GET "/this-path-does-not-exist" for 127.0.0.1 at 2013-04-23 17:31:29 +0200
+Started GET "/tests/26" for 127.0.0.1 at 2013-04-23 17:31:29 +0200
+Started GET "/tests" for 127.0.0.1 at 2013-04-23 17:31:29 +0200
+Connecting to database specified by database.yml
+Started GET "/articles" for 127.0.0.1 at 2013-04-23 17:32:29 +0200
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles" [0m
+  Rendered articles/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 47ms (Views: 42.1ms | ActiveRecord: 2.5ms)
+Started GET "/articles/new" for 127.0.0.1 at 2013-04-23 17:32:29 +0200
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.erb (12.9ms)
+  Rendered articles/new.html.erb within layouts/application (41.0ms)
+Completed 200 OK in 47ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+Started GET "/this-path-does-not-exist" for 127.0.0.1 at 2013-04-23 17:32:29 +0200
+Started GET "/articles/simulate_422" for 127.0.0.1 at 2013-04-23 17:32:29 +0200
+Processing by ArticlesController#simulate_422 as HTML
+Completed 422 Unprocessable Entity in 0ms
+Started GET "/articles/simulate_500" for 127.0.0.1 at 2013-04-23 17:32:29 +0200
+Processing by ArticlesController#simulate_500 as HTML
+Completed 404 Not Found in 0ms
