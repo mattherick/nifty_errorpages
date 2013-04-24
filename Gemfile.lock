@@ -1,10 +1,8 @@
 PATH
   remote: .
   specs:
-    nifty_errorpages (0.0.1)
-      i18n
+    nifty_errorpages (0.0.2)
       rails (~> 3.2)
-      uglifier
 
 GEM
   remote: http://rubygems.org/
@@ -47,14 +45,6 @@ GEM
       xpath (~> 1.0.0)
     childprocess (0.3.9)
       ffi (~> 1.0, >= 1.0.11)
-    columnize (0.3.6)
-    debugger (1.4.0)
-      columnize (>= 0.3.1)
-      debugger-linecache (~> 1.1.1)
-      debugger-ruby_core_source (~> 1.2.0)
-    debugger-linecache (1.1.2)
-      debugger-ruby_core_source (>= 1.1.1)
-    debugger-ruby_core_source (1.2.0)
     diff-lcs (1.2.1)
     erubis (2.7.0)
     execjs (1.4.0)
@@ -141,9 +131,9 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
-  debugger
   i18n
   jquery-rails
   nifty_errorpages!
   rspec-rails
   sqlite3
+  uglifier

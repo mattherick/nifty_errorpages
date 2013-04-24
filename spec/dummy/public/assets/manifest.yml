@@ -7,5 +7,5 @@ jquery.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
 jquery/index.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
 nifty_errorpages/application.js: nifty_errorpages/application-155203b7144128c2047da6377a6f613e.js
 nifty_errorpages/application/index.js: nifty_errorpages/application-155203b7144128c2047da6377a6f613e.js
-nifty_errorpages/application.css: nifty_errorpages/application-14e4ba6da2d49c7355074115cdc97ada.css
-nifty_errorpages/application/index.css: nifty_errorpages/application-14e4ba6da2d49c7355074115cdc97ada.css
+nifty_errorpages/application.css: nifty_errorpages/application-c6f2d747bd2fe0804984d0c7e2a8db4b.css
+nifty_errorpages/application/index.css: nifty_errorpages/application-c6f2d747bd2fe0804984d0c7e2a8db4b.css
